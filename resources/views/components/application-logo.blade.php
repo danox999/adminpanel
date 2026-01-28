@@ -1,0 +1,17 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {{ $attributes }}>
+    <defs>
+        <linearGradient id="lightningGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="lightningHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFACD;stop-opacity:0.9" />
+            <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0.3" />
+        </linearGradient>
+    </defs>
+    <!-- Main lightning bolt with gradient -->
+    <path d="M13 2L4 13h6v8l9-11h-6V2z" fill="url(#lightningGradient)" stroke="#FF8C00" stroke-width="0.5" stroke-linejoin="round"/>
+    <!-- Highlight for glossy effect -->
+    <path d="M13 2L7 10h3v3l6-7h-3V2z" fill="url(#lightningHighlight)" opacity="0.8"/>
+</svg>

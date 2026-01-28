@@ -36,8 +36,8 @@ Sistem admin panel untuk mengelola user, role, dan data aplikasi dengan autentik
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/admin-panel.git
-cd admin-panel
+git clone https://github.com/danox999/adminpanel.git
+cd adminpanel
 ```
 
 2. Install dependencies:
